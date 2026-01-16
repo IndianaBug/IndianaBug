@@ -18,7 +18,7 @@ I work primarily on high-throughput data pipelines, time-series processing, and 
 ### Collaboration
 If you’re interested in **training algo bots**, I can provide **polished, ML-ready datasets** inspired by methods from *Marcos López de Prado*, with extensive feature engineering and labeling pipelines.
 
-Feature sets include trade-, order book–, and volatility-derived signals (e.g. impact, intensity, bursts, exhaustion, VPIN-style metrics), applied consistently across multiple data dimensions — not limited to raw trades alone. Pipelines are designed for hyperparameter optimization over execution logic, depth dynamics, and feature interactions.
+Feature sets include trades, l2books, and volatility-derived signals (e.g. impact, intensity, bursts, exhaustion, VPIN-style metrics), applied consistently across multiple data dimensions — not limited to raw trades alone. Pipelines are designed for hyperparameter optimization over execution logic, depth dynamics, and feature interactions. (funding and open interest features coming soon)
 
 Open to collaboration on technically challenging, research-driven projects.
 
