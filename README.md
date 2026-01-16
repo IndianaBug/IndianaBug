@@ -8,7 +8,7 @@ I work primarily on high-throughput data pipelines, time-series processing, and 
 - Python, Rust
 - Data engineering & time-series systems
 - Machine learning for algorithmic strategies
-- Backend & infrastructure (Docker, Kubernetes)
+- Backend & infrastructure (Kubernetes)
 
 ### Current focus
 - Algorithmic trading bots
