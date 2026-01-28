@@ -1,27 +1,45 @@
-# Pavlo Vanat
+## Pavlo Vanat
 
-Solo developer focused on data engineering and machine learning for algorithmic system development.
+Solo developer focused on **data engineering and machine learning** for algorithmic system development.
 
-I work primarily on high-throughput data pipelines, time-series processing, and ML-driven decision systems. My background includes backend and server-side engineering, with hands-on experience operating containerized infrastructure.
+I work primarily on **high-throughput market data pipelines**, **time-series processing**, and **ML-driven decision systems**. My background includes backend and server-side engineering, with hands-on experience operating **containerized infrastructure**.
 
 ### Tech
-- Python, Rust
-- Data engineering & time-series systems
-- Machine learning for algorithmic strategies
+- Python, Rust  
+- Data engineering & time-series systems  
+- Machine learning for algorithmic strategies  
 - Backend & infrastructure (Kubernetes)
 
 ### Current focus
-- Algorithmic trading bots
-- Real-time market data ingestion and processing
-- Research & experimentation in ML-driven strategies
+- Algorithmic trading systems  
+- Real-time market data ingestion & processing  
+- Research-driven ML experimentation
 
-### Collaboration
-If you’re interested in **training algo bots**, I can provide **polished, ML-ready datasets** inspired by methods from *Marcos López de Prado*, with extensive feature engineering and labeling pipelines.
+### Collaboration / Research
+If you’re interested in **training algorithmic trading bots**, I’m building a pipeline to produce **polished, ML-ready datasets** inspired by *Marcos López de Prado*’s methodology.
 
-Feature sets include trades, l2books, and volatility-derived signals (e.g. impact, intensity, bursts, exhaustion, VPIN-style metrics), applied consistently across multiple data dimensions — not limited to raw trades alone. Pipelines are designed for hyperparameter optimization over execution logic, depth dynamics, and feature interactions. (funding and open interest features coming soon)
+This work is **actively in progress** and not fully released yet, but the core components are coming together and should be usable **within the next month or so**.
 
-Open to collaboration on technically challenging, research-driven projects.
+The current focus is on **feature engineering and optimization** around **trades and order-book depth**, with particular emphasis on **event-based bar construction**, **labeling**, and **CUSUM-driven sampling**.
 
-📫 **Contact**
-- 👉 Discord: https://discord.gg/wG49SpsM  
-- 📧 Email: arb_van_go@outlook.com
+Feature development is centered on **depth- and trade-derived signals**, including:
+- **Time-weighted depth** and depth persistence for bar formation  
+- **Canceled vs executed depth** and **reinforced depth** (resting liquidity that repeatedly absorbs flow)  
+- **Absorption metrics** capturing aggressive flow versus available liquidity  
+- **Footprint-style features** (volume and delta by price, imbalance ratios, exhaustion signals)  
+- **Volatility-derived microstructure signals** such as impact, intensity, bursts, exhaustion, and VPIN-style flow toxicity  
+- Cross-side and cross-level interactions between trades and L2 dynamics  
+
+These features are applied **consistently across multiple data representations** (trades, depth, bars, and events), rather than being limited to raw trade data. The pipelines are designed for **hyperparameter optimization** over bar parameters, labeling logic, CUSUM thresholds, depth decay, and feature interactions, with explicit controls for **dependence, leakage, and sample efficiency**.
+
+For now, this work is expected to **remain proprietary**.  
+Access will be limited to **research collaborators** who can contribute meaningfully through **analysis, validation, methodological feedback, or experimental work** (not financial contributions).
+
+Funding rates and open interest features are planned, but the current effort is focused on making **depth- and trade-based representations statistically robust and optimizer-ready**.
+
+Open to collaboration on **technically challenging, research-driven projects**.
+
+### Contact
+- Discord: https://discord.gg/wG49SpsM  
+- Email: arb_van_go@outlook.com
+
